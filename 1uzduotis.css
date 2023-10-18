@@ -1,0 +1,161 @@
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    gap: 6px;
+    height: 100vh;
+}
+.none{
+    grid-area: 1 / 1 / 2 / 2 ;
+    background-color: silver;
+    border-radius: 5%;
+}
+.stage1{
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: silver;
+    border-radius: 5%;
+}
+.stage2{
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: silver;
+    border-radius: 5%;
+}
+.stage3{
+    grid-area:  1 / 4 / 2 / 5 ;
+    background-color: silver;
+    border-radius: 5%;
+}
+.stage4{
+    grid-area:  1 / 5 / 2 / 6;
+    background-color: silver;
+    border-radius: 5%;
+}
+.stage5{
+    grid-area:  1 / 6 / 2 / 7;
+    background-color: silver;
+    border-radius: 5%;
+}
+.stage6{
+    grid-area:  1 / 7 / 2 / 8;
+    background-color: silver;
+    border-radius: 5%;
+}
+.stage7{
+    grid-area:  1 / 8 / 2 / 9;
+    background-color: silver;
+    border-radius: 5%;
+}
+
+.time1{
+    grid-area: 2 / 1 / 3 /2;
+    background-color: silver;
+    border-radius: 5%;
+}
+.time2{
+    grid-area: 3 / 1 / 4 /2;
+    background-color: silver;
+    border-radius: 5%;
+}
+.time3{
+    grid-area:  4 / 1 / 5 /2;
+    background-color: silver;
+    border-radius: 5%;
+}
+.time4{
+    grid-area:  5 / 1 / 6 /2;
+    background-color: silver;
+    border-radius: 5%;
+}
+.time5{
+    grid-area:  6 / 1 / 7 /2;
+    background-color: silver;
+    border-radius: 5%;
+}
+.time6{
+    grid-area:  7 / 1 / 8 /2;
+    background-color: silver;
+    border-radius: 5%;
+}
+.time7{
+    grid-area:  8 / 1 / 9 /2;
+    background-color: silver;
+    border-radius: 5%;
+}
+.time8{
+    grid-area:  9 / 1 / 10 /2;
+    background-color: silver;
+    border-radius: 5%;
+}
+.time9{
+    grid-area:  10 / 1 / 11 /2;
+    background-color: silver;
+    border-radius: 5%;
+}
+.time10{
+    grid-area:  11 / 1 / 12 /2;
+    background-color: silver;
+    border-radius: 5%;
+}
+
+.talk1{
+    grid-area: 2 / 2 / 5 / 4;
+    background-color: lightblue;
+    border-radius: 5%;
+}
+.talk2_3{
+    grid-area: 6 / 2 / 8 / 5;
+    background-color: lightblue;
+    border-radius: 5%;
+}
+.talk4{
+    grid-area: 2 / 4 / 6 / 5;
+    background-color: lightgreen;
+    border-radius: 5%;
+}
+.talk5{
+    grid-area: 2 / 5 / 3 / 7;
+    background-color: red;
+    border-radius: 5%;
+}
+.talk6{
+    grid-area: 4 / 5 / 9 / 7 ;
+    background-color: red;
+    border-radius: 5%;
+}
+.talk7{
+    grid-area: 9 / 2 / 12 / 4 ;
+    background-color: lightblue;
+    border-radius: 5%;
+}
+.talk8{
+    grid-area: 10 / 4 / 12 / 7;
+    background-color: lightgreen;
+    border-radius: 5%;
+}
+.talk9{
+    grid-area: 2 / 7 / 9 / 9;
+    background-color: yellow;
+    border-radius: 5%;
+}
+.talk10{
+    grid-area: 9 / 7 / 12 / 9;
+    background-color: yellow;
+    border-radius: 5%;
+}
+
+.break1{
+    grid-area: 3 / 5 / 4 /7;
+    background-color: silver;
+    border-radius: 5%;
+}
+.break2{
+    grid-area: 8 / 2 / 9 / 9;
+    background-color: silver;
+    border-radius: 5%;
+}
+.break3{
+    grid-area: 5 / 2 / 6 /4 ;
+    background-color: silver;
+    border-radius: 5%;
+}
+
