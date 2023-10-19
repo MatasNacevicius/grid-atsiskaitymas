@@ -1,0 +1,478 @@
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 100vh;
+    gap: 10px;
+}
+.pav1{
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+}
+.pav2{
+    grid-area: 1 / 2 / 2 / 3;
+    position: relative;
+}
+.pav3{
+    grid-area: 1 / 3 / 2 / 4;
+    position: relative;
+}
+.pav4{
+    grid-area: 1 / 4 / 3 / 5;
+    position: relative;
+}
+.pav5{
+    grid-area: 1 / 5 / 2 / 6;
+    position: relative;
+}
+.pav6{
+    grid-area: 1 / 6 / 2 / 8;
+    position: relative;
+}
+.pav7{
+    grid-area: 2 / 1 / 3 / 3;
+    position: relative;
+}
+.pav8{
+    grid-area: 2 / 5 / 4 / 7;
+    position: relative;
+}
+.pav9{
+    grid-area: 1 / 8 / 3 / 9;
+    position: relative;
+}
+.pav10{
+    grid-area: 2 / 3 / 4 / 4;
+    position: relative;
+}
+.pav11{
+    grid-area: 3 / 4 / 4 / 5;
+    position: relative;
+}
+.pav12{
+    grid-area: 2 / 7 / 3 / 8;
+    position: relative;
+}
+.pav13{
+    grid-area: 5 / 1 / 6 / 2;
+    position: relative;
+}
+.pav14{
+    grid-area: 3 / 1 / 5 / 3;
+    position: relative;
+}
+.pav15{
+    grid-area: 5 / 2 / 6 / 3;
+    position: relative;
+}
+.pav16{
+    grid-area: 5 / 6 / 6 /7;
+    position: relative;
+}
+.pav17{
+    grid-area: 4 / 3 / 6 / 5;
+    position: relative;
+}
+.pav18{
+    grid-area: 4 / 5 / 6 / 6;
+    position: relative;
+}
+.pav19{
+    grid-area: 4 / 6 / 5 / 7;
+    position: relative;
+}
+.pav20{
+    grid-area: 3 / 7 / 6 / 9;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.pav1 .pirmas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav1:hover img {
+    filter: brightness(0.3);
+}
+
+.pav1:hover .pirmas {
+    display: block;
+}
+.pav2 .antras {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav2:hover img {
+    filter: brightness(0.3);
+}
+
+.pav2:hover .antras {
+    display: block;
+}
+.pav3 .trecias {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav3:hover img {
+    filter: brightness(0.3);
+}
+
+.pav3:hover .trecias {
+    display: block;
+}
+.pav4 .ketvirtas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav4:hover img {
+    filter: brightness(0.3);
+}
+
+.pav4:hover .ketvirtas {
+    display: block;
+}
+.pav5 .penktas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav5:hover img {
+    filter: brightness(0.3);
+}
+
+.pav5:hover .penktas {
+    display: block;
+}
+.pav6 .sestas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav6:hover img {
+    filter: brightness(0.3);
+}
+
+.pav6:hover .sestas {
+    display: block;
+}
+.pav7 .septintas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav7:hover img {
+    filter: brightness(0.3);
+}
+
+.pav7:hover .septintas {
+    display: block;
+}
+.pav8 .astuntas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav8:hover img {
+    filter: brightness(0.3);
+}
+
+.pav8:hover .astuntas {
+    display: block;
+}
+.pav9 .devintas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav9:hover img {
+    filter: brightness(0.3);
+}
+
+.pav9:hover .devintas {
+    display: block;
+}
+.pav10 .desimtas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav10:hover img {
+    filter: brightness(0.3);
+}
+
+.pav10:hover .desimtas {
+    display: block;
+}
+.pav11 .vienuoliktas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav11:hover img {
+    filter: brightness(0.3);
+}
+
+.pav11:hover .vienuoliktas {
+    display: block;
+}
+.pav12 .dvyliktas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav12:hover img {
+    filter: brightness(0.3);
+}
+
+.pav12:hover .dvyliktas {
+    display: block;
+}
+.pav13 .tryliktas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav13:hover img {
+    filter: brightness(0.3);
+}
+
+.pav13:hover .tryliktas {
+    display: block;
+}
+.pav14 .keturioliktas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav14:hover img {
+    filter: brightness(0.3);
+}
+
+.pav14:hover .keturioliktas {
+    display: block;
+}
+.pav15 .penkioliktas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav15:hover img {
+    filter: brightness(0.3);
+}
+
+.pav15:hover .penkioliktas {
+    display: block;
+}
+.pav16 .sesioliktas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav16:hover img {
+    filter: brightness(0.3);
+}
+
+.pav16:hover .sesioliktas {
+    display: block;
+}
+.pav17 .septinioliktas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav17:hover img {
+    filter: brightness(0.3);
+}
+
+.pav17:hover .septinioliktas {
+    display: block;
+}
+.pav18 .astonioliktas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav18:hover img {
+    filter: brightness(0.3);
+}
+
+.pav18:hover .astonioliktas {
+    display: block;
+}
+.pav19 .devinioliktas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav19:hover img {
+    filter: brightness(0.3);
+}
+
+.pav19:hover .devinioliktas {
+    display: block;
+}
+.pav20 .dvidesimtas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0%, -50%);
+    color: #FFFFFF;
+    font-family: Arial;
+    text-transform: uppercase;
+    display: none;
+}
+
+.pav20:hover img {
+    filter: brightness(0.3);
+}
+
+.pav20:hover .dvidesimtas {
+    display: block;
+}
+
+
+
+
+

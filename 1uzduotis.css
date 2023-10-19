@@ -101,46 +101,59 @@
     grid-area: 2 / 2 / 5 / 4;
     background-color: lightblue;
     border-radius: 5%;
+    padding-right: 70%;
+    padding-top: 5%;
 }
 .talk2_3{
     grid-area: 6 / 2 / 8 / 5;
     background-color: lightblue;
     border-radius: 5%;
+    padding-right: 70%;
 }
 .talk4{
     grid-area: 2 / 4 / 6 / 5;
     background-color: lightgreen;
     border-radius: 5%;
+    padding-top: 20%;
 }
 .talk5{
     grid-area: 2 / 5 / 3 / 7;
-    background-color: red;
+    background-color: rgb(250, 112, 112);
     border-radius: 5%;
 }
 .talk6{
-    grid-area: 4 / 5 / 9 / 7 ;
-    background-color: red;
+    grid-area: 4 / 5 / 8 / 7;
+    background-color: rgb(250, 112, 112);
     border-radius: 5%;
+    padding-right: 10%;
+    padding-top: 10%;
 }
 .talk7{
     grid-area: 9 / 2 / 12 / 4 ;
     background-color: lightblue;
     border-radius: 5%;
+    padding-right: 70%;
+    padding-top: 5%;
 }
 .talk8{
     grid-area: 10 / 4 / 12 / 7;
     background-color: lightgreen;
     border-radius: 5%;
+    padding-right: 70%;
 }
 .talk9{
-    grid-area: 2 / 7 / 9 / 9;
+    grid-area: 2 / 7 / 8 / 9;
     background-color: yellow;
     border-radius: 5%;
+    padding-right: 10%;
+    padding-top: 25%;
 }
 .talk10{
     grid-area: 9 / 7 / 12 / 9;
     background-color: yellow;
     border-radius: 5%;
+    padding-right: 70%;
+    padding-top: 5%;
 }
 
 .break1{
@@ -158,4 +171,43 @@
     background-color: silver;
     border-radius: 5%;
 }
-
+h2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: orange;
+}
+article{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.pav1{
+    color: blue;
+}
+.pav2-3{
+    color: blue;
+}
+.pav4{
+    color: green;
+}
+.pav5{
+    color: red;
+}
+.pav6{
+    color: red;
+}
+.pav7{
+    color: blue;
+}
+.pav8{
+    color: green;
+}
+.pav9{
+    color: orange;
+}
+.pav10{
+    color: orange;
+}
